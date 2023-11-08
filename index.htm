@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jumia</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+
+    <div class="top--part text-muted spacing">
+        <img src="./jumia1.webp" alt="jumia-logo" width="50px" class="image" />&nbsp;&nbsp;&nbsp;
+        <i class="fa-regular fa-bowl-food">FOOD</i>&nbsp;&nbsp;&nbsp;
+        <i class="fa-brands fa-amazon-pay">PAY</i>&nbsp;&nbsp;&nbsp;
+        <i class="fa-solid fa-jedi">FORCE</i>&nbsp;&nbsp;&nbsp;
+    </div>
+
+    <!-- bootstrap navbar with search and icons -->
+    <nav class="navbar navbar-dark bg-light top--most spacing">
+        <div class="navbar d-flex middle">
+            <nav class="navbar navbar-light bg-light">
+                <div class="container-fluid">
+                  <i class="fa-solid fa-bars text-dark"></i>&nbsp;&nbsp;&nbsp;
+                  <img src="./jumia1.webp" alt="jumia-logo" width="120px"/>
+                  
+                  <form class="d-flex">
+                    <input class="form-control me-2 input-search" type="search" placeholder="Search products, brands and categories" aria-label="Search">
+                    <button class="btn btn-warning text-light search bold" type="submit">Search</button>
+                  </form>
+                </div>
+            </nav>
+            <i class="fa-solid fa-person"></i>Hi , Eva&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <i class="fa-regular fa-circle-question"></i>Help&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <i class="fa-solid fa-cart-shopping"></i>Cart&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+           
+        </div>
+      </nav>
+
+      <!-- cards -->
+      <div class="down--part">
+
+        <div class="row mt-3">
+            <div class="col-sm-3">
+                <div class="card">
+                    <div class="card-body icons spacing">
+                        <i class="fa-solid fa-person"></i>&nbsp;&nbsp;&nbsp;&nbsp;My Jumia Account<br/>
+                        <div class="selected bg-secondary text-light">
+                            <i class="fa-solid fa-sort" ></i>&nbsp;&nbsp;&nbsp;&nbsp;Orders<br/>
+                        </div>
+                        <i class="fa-solid fa-inbox"></i>&nbsp;&nbsp;&nbsp;&nbsp;Inbox<br/>
+                        <i class="fa-solid fa-pen-nib"></i>&nbsp;&nbsp;&nbsp;&nbsp;Pending Reviews<br/>
+                        <i class="fa-solid fa-couch"></i>&nbsp;&nbsp;&nbsp;&nbsp;Voucher<br/>
+                        <i class="fa-regular fa-heart"></i>&nbsp;&nbsp;&nbsp;&nbsp;Saved Items<br/>
+                        <i class="fa-solid fa-clock-rotate-left"></i>&nbsp;&nbsp;&nbsp;&nbsp;Recently Viewed<br/>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-9">
+                <div class="card" style="width: 45rem;">
+                    <div class="card-body mb-3 outer spacing">
+                        <h5 class="card-title bold">Orders</h5>
+                        <a href="#" class="text-warning bold">OPEN ORDERS</a>&nbsp;&nbsp;
+                        <a href="#" class="text-muted">CLOSED ORDERS</a>
+                    </div>
+                    <div class="cards mb-5" style="width: 25rem;">
+                        <img src="./laptops.jpeg" class="card-img-top" alt="laptops" />
+                        <div class="details">
+                            <h5 class="card-title">Laptops</h5>
+                            <p class="card-text">Order 302132791</p>
+                            <a href="#" class="btn btn-success bold">DELIVERED</a>
+                            <p class="date mt-3">On 04-09</p>
+                        </div>
+                        <div class="show-details text-warning bold">
+                            <h3>SEE DETAILS</h3>
+                        </div>
+                    </div>
+                    <div class="cards mb-5" style="width: 25rem;">
+                        <img src="./stands.jpg" class="card-img-top" alt="laptops">
+                        <div class="details">
+                          <h5 class="card-title">Laptop stands</h5>
+                          <p class="card-text">Order 3021323791</p>
+                          <a href="#" class="btn btn-success bold">DELIVERED</a>
+                          <p class="date mt-3">On 16-08</p>
+                        </div>
+                        <div class="show-details text-warning bold">
+                            <h3>SEE DETAILS</h3>
+                        </div>
+                    </div>
+                    <div class="cards mb-5" style="width: 25rem;">
+                        <img src="./bag.png" class="card-img-top" alt="laptops">
+                        <div class="details">
+                            <h5 class="card-title"> 5 Piece Diaper Bags</h5>
+                            <p class="card-text">Order 302132761</p>
+                            <a href="#" class="btn btn-success bold">DELIVERED</a>
+                            <p class="date mt-3">On 7-11</p>
+                        </div>
+                        <div class="show-details text-warning bold">
+                            <h3>SEE DETAILS</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+      </div>
+</body>
+</html>
